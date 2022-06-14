@@ -1,5 +1,7 @@
 <template>
-    <router-link><img src="../assets/img/IMAGE.svg" alt="logo"></router-link>
+    <router-link to="/">
+         <img src="../assets/img/IMAGE.svg" alt="logo">
+    </router-link>
 
     <h3>Header</h3>
 </template>
@@ -8,7 +10,7 @@
 
 
 export default {
-   
+
 }
 </script>
 
