@@ -1,5 +1,7 @@
 module.exports = {
-    content: ["./src/**/*.{html,js}"],
+    content: ["./index.html",
+            "./src/**/*.{vue,js,ts,jsx,tsx}",
+    ],
     theme: {
       extend: {
         container:{
@@ -10,6 +12,10 @@ module.exports = {
                 md:'768px',
                 lg:'1024px',
                 xl:'1180px'
+            },
+            colors:{
+              black:'#292F36',
+              gray:'#4D5053'
             }
         }
       },

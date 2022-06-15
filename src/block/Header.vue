@@ -1,10 +1,19 @@
 <template>
     <router-link to="/">
         <div class="container mx-auto">
-              <img src="../assets/img/IMAGE.svg" alt="logo">  
-                <h3>Header</h3>
-        </div>
-       
+            <div class="flex items-center">
+                 <div> 
+                <img src="../assets/img/IMAGE.svg" alt="logo">  
+            </div>
+            <div>
+                <a href="/" class="text-black">Home</a>
+                <a href="#" class="text-black">About Us</a>
+                <a href="#" class="text-black">Services</a>
+                <a href="#" class="text-black">Pages</a>
+                <a href="#" class="text-black">Contact Us</a>
+            </div>  
+            </div>                    
+        </div>      
     </router-link>
 
 

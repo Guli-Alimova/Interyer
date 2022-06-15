@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap');
-@import "./assets/scss/_main.scss"
+@import "./assets/scss/style.scss"
 </style>
