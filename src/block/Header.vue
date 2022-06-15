@@ -1,9 +1,13 @@
 <template>
     <router-link to="/">
-         <img src="../assets/img/IMAGE.svg" alt="logo">
+        <div class="container mx-auto">
+              <img src="../assets/img/IMAGE.svg" alt="logo">  
+                <h3>Header</h3>
+        </div>
+       
     </router-link>
 
-    <h3>Header</h3>
+
 </template>
 
 <script>
