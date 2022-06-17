@@ -6,7 +6,10 @@
             <p>The world needs innovators and problem solvers who turn</p>
             <p>challenges into greater opportunities.</p>  
             </div>
-          <my-button >Get Started</my-button>
+            <my-button>Get Started </my-button>
+            
+          
+      
         </div>
 
     </section>
@@ -26,6 +29,7 @@ export default{
 <style scoped>
 .hero{
     background-image: url('@/assets/img/hero.png');
+    background-repeat: no-repeat;
     padding:188px 0 260px 0;
 }
 .hero-title{

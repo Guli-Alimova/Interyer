@@ -1,7 +1,8 @@
 <template>
-    <button class="my-button">
-        <slot></slot>
-    </button>
+     <button class="my-button">
+        <slot></slot> 
+        <img src="@/assets/img/right-arrow-svgrepo-com.svg" class="img" alt="">
+    </button>  
 </template>
 
 <script>
@@ -13,6 +14,10 @@ export default{
 </script>
 
 <style>
+    .button{
+        display: flex;
+        
+    }
     .my-button{
     font-family: Jost;
     font-size: 18px;
@@ -24,5 +29,11 @@ export default{
     padding:22px;
     background-color: #292F36;
     border-radius:18px;
+    }
+    .img{
+        width: 20px;
+        display: inline;
+        margin-left:21px;
+       
     }
 </style>
