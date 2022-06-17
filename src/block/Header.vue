@@ -1,20 +1,24 @@
 <template>
-    <router-link to="/">
-        <div class="container mx-auto">
-            <div class="flex items-center">
-                 <div> 
+    <header class="header_wrapper">
+        <div class="container">
+            <div class="flex  justify-between ">
+                <div> 
                 <img src="../assets/img/IMAGE.svg" alt="logo">  
             </div>
-            <div>
-                <a href="/" class="text-black">Home</a>
-                <a href="#" class="text-black">About Us</a>
-                <a href="#" class="text-black">Services</a>
-                <a href="#" class="text-black">Pages</a>
-                <a href="#" class="text-black">Contact Us</a>
+            <div class="header_links">
+                <a 
+                href="/"
+                v-for="(item, index) in pages" 
+                :key="index"
+                class="text-[#292F36]-400 hover:text-[#CDA274] pr-20px">
+                {{item.link}}
+                </a>
+                
             </div>  
+            
             </div>                    
         </div>      
-    </router-link>
+    </header>
 
 
 </template>
@@ -23,10 +27,44 @@
 
 
 export default {
+    data(){
+        return{
+            pages:[
+                {
+                link :'Home', 
+                },
+                  {
+                link :'About Us', 
+                },
+                  {
+                link :'Servises', 
+                },
+                  {
+                link :'Pages', 
+                },
+                  {
+                link :'Contact Us', 
+                }
 
+          
+            ]
+        }
+    }
 }
 </script>
 
-<style scoped>
+<style lang="scss">
+.header_wrapper {
+    padding:38px 0;
+  
 
+}
+.header_links a{
+    padding:0 20px;
+    text-align: center; 
+    
+}
 </style>
+ 
+
+

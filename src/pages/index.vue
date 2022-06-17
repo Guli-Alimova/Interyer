@@ -1,13 +1,16 @@
 <template>
     <Header />
+    <Hero/>
+    
 </template>
 
 <script>
 import Header from "@/block/Header.vue"
-
+import Hero from "@/block/Hero.vue"
 export default {
    components:{
-    Header
+    Header,
+    Hero
    }
 }
 </script>

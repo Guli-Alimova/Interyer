@@ -5,18 +5,15 @@ module.exports = {
     theme: {
       extend: {
         container:{
-            center:true,
-            padding:'20px',
+            center:true ,
+            // padding:'20px'  ,
             screens:{
                 sm:'640px',
                 md:'768px',
                 lg:'1024px',
-                xl:'1180px'
+                xl:'1200px'
             },
-            colors:{
-              black:'#292F36',
-              gray:'#4D5053'
-            }
+         
         }
       },
     },
