@@ -1,16 +1,16 @@
 <template>
-    <header class="header_wrapper">
+    <header class="p-[38px 0]">
         <div class="container">
-            <div class="flex  justify-between ">
+            <div class="flex  justify-between items-center ">
                 <div> 
                 <img src="../assets/img/IMAGE.svg" alt="logo">  
             </div>
-            <div class="header_links">
+            <div>
                 <a 
                 href="/"
                 v-for="(item, index) in pages" 
                 :key="index"
-                class="text-[#292F36]-400 hover:text-[#CDA274] pr-20px">
+                class="text-[#292F36] hover:text-[#CDA274] active:text-[#CDA274] m-[20px 0] text-center">
                 {{item.link}}
                 </a>
                 
@@ -54,16 +54,7 @@ export default {
 </script>
 
 <style lang="scss">
-.header_wrapper {
-    padding:38px 0;
-  
 
-}
-.header_links a{
-    padding:0 20px;
-    text-align: center; 
-    
-}
 </style>
  
 

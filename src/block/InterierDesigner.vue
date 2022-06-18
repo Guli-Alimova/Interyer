@@ -1,5 +1,5 @@
 <template>
-    <div class="interier">
+    <div class="p-[175px 0 170px 0]">
         <div class="container">
             <div class="flex">
               <interier-card/>     
@@ -21,7 +21,5 @@ export default{
 
 
 <style scoped>
-.interier{
-    padding:175px 0 170px 0;
-}
+
 </style>

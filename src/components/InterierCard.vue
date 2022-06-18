@@ -3,10 +3,28 @@
     v-for="(item, index ) in design" 
     :key="index" 
     class="text-center ">
-        <h1 class="design-theme">{{item.theme}}</h1>
-        <p class="design-text pt-4 pb-16">{{item.text}}</p>
-        <button class="design-btn">View More 
-            <img src="../assets/img/right-arrow-svgrepo-com.svg" class="img" alt="right">
+        <h1 class=" font-['DM Serif Display']
+        text-[25px]
+        text-normal
+        leading-[39px] 
+        tracking-[.22px]
+        text-center;
+        text-[#292F36]">
+        {{item.theme}}
+        </h1>
+        <p class="text-['Jost'] ;
+        text-[22px]
+        text-normal
+        leading-[33px] 
+        tracking-[0.22px] 
+        text-[#4D5053] pt-4 pb-16">{{item.text}}</p>
+        <button class="text-[Jost] 
+        text-[18px]
+        text-normal
+        leading-[27px]
+        tracking-[0.3px]
+        text-[#4D5053]">View More 
+            <img src="../assets/img/right-arrow-svgrepo-com.svg" class="w-[24px] inline ml-[9px]" alt="right">
         </button>
     </div>
 </template>
@@ -40,37 +58,5 @@ export default{
 
 
 <style scoped>
-.design-theme{
-    font-family: DM Serif Display;
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 39px;
-    letter-spacing: 0.2199999988079071px;
-    text-align: center;
-    color:#292F36;
 
-}
-.design-text{
-    font-family: Jost;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0.2px;
-    color:#4D5053;
-
-}
-.design-btn{
-    font-family: Jost;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0.3px;
-    color:#4D5053;
-}
-.img{
-    width: 24px;
-    display: inline;
-    margin-left:9px;
- 
-    }
 </style>

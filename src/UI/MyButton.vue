@@ -1,7 +1,8 @@
 <template>
-     <button class="my-button">
+     <button class="font-normal font-['Jost'] text-lg leading-7 text-[#fff] p-5 bg-[#292F36] rounded-2xl">
+        <!-- padding 22 px edi remda bu qancha boladi border radius 18px remda qancha boladi   -->
         <slot></slot> 
-        <img src="@/assets/img/right-arrow-svgrepo-com.svg" class="img" alt="">
+        <img src="@/assets/img/right-arrow-svgrepo-com.svg" class="w-5 inline ml-[21px]" alt="">
     </button>  
 </template>
 
@@ -14,26 +15,5 @@ export default{
 </script>
 
 <style>
-    .button{
-        display: flex;
-        
-    }
-    .my-button{
-    font-family: Jost;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0.7200000286102295px;
-    text-align: left;
-    color:#fff;
-    padding:22px;
-    background-color: #292F36;
-    border-radius:18px;
-    }
-    .img{
-        width: 20px;
-        display: inline;
-        margin-left:21px;
-       
-    }
+
 </style>
