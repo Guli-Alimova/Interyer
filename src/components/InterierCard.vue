@@ -23,7 +23,8 @@
         text-normal
         leading-[27px]
         tracking-[.3px]
-        text-[#4D5053]">View More 
+        text-[#4D5053]
+        hover:text-[#CDA274]">View More 
             <img src="../assets/img/right-arrow-svgrepo-com.svg" class="w-[24px] inline ml-[9px]" alt="right">
         </button>
     </div>
