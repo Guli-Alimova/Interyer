@@ -9,6 +9,7 @@
     <Followers/>
     <RecentBlog/>
     <JoinInterno/>
+    <Footer/>
 </template>
 
 <script>
@@ -22,6 +23,7 @@ import RecentProject from "@/block/RecentProject.vue"
 import Followers from "@/block/Followers.vue"
 import RecentBlog from "@/block/RecentBlog.vue"
 import JoinInterno from "@/block/JoinInterno.vue"
+import Footer from "@/block/Footer.vue"
 export default {
    components:{
     Header,
@@ -33,7 +35,8 @@ export default {
     RecentProject,
     Followers,
     RecentBlog,
-    JoinInterno
+    JoinInterno,
+    Footer
    }
 }
 </script>

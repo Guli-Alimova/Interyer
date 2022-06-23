@@ -4,7 +4,7 @@
             <div class="flex justify-between items-center ">
                 <div> 
                 <img src="../assets/img/IMAGE.svg" alt="logo">  
-            </div>
+                </div>
             <div>
                 <a 
                 href="/"
