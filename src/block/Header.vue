@@ -1,7 +1,7 @@
 <template>
-    <header class="p-[38px 0]">
+    <header class="py-[38px] px-[0]">
         <div class="container">
-            <div class="flex  justify-between items-center ">
+            <div class="flex justify-between items-center ">
                 <div> 
                 <img src="../assets/img/IMAGE.svg" alt="logo">  
             </div>
@@ -10,7 +10,13 @@
                 href="/"
                 v-for="(item, index) in pages" 
                 :key="index"
-                class="text-[#292F36] hover:text-[#CDA274] active:text-[#CDA274] m-[20px 0] text-center">
+                class=" font-['Jost']
+                text-[19px] 
+                text-normal
+                leading-[30px]
+                tracking-[.40px]
+                text-[#292F36] 
+                hover:text-[#CDA274] mr-[20px] ml-[20px] text-center">
                 {{item.link}}
                 </a>
                 

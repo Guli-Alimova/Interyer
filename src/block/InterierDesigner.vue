@@ -1,7 +1,7 @@
 <template>
-    <div class="p-[175px 0 170px 0]">
+    <div class="pt-[175px] pr-[0] pb-[170px] pl-[0]">
         <div class="container">
-            <div class="flex">
+            <div class="flex justify-between">
               <interier-card/>     
             </div>   
         </div>

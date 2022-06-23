@@ -2,7 +2,7 @@
     <div 
     v-for="(item, index ) in design" 
     :key="index" 
-    class="text-center ">
+    class="text-center w-[297px] ">
         <h1 class=" font-['DM Serif Display']
         text-[25px]
         text-normal
@@ -12,17 +12,17 @@
         text-[#292F36]">
         {{item.theme}}
         </h1>
-        <p class="text-['Jost'] ;
+        <p class="font-['Jost'] 
         text-[22px]
         text-normal
         leading-[33px] 
-        tracking-[0.22px] 
+        tracking-[.22px] 
         text-[#4D5053] pt-4 pb-16">{{item.text}}</p>
-        <button class="text-[Jost] 
+        <button class="font-[Jost] 
         text-[18px]
         text-normal
         leading-[27px]
-        tracking-[0.3px]
+        tracking-[.3px]
         text-[#4D5053]">View More 
             <img src="../assets/img/right-arrow-svgrepo-com.svg" class="w-[24px] inline ml-[9px]" alt="right">
         </button>
