@@ -2,7 +2,7 @@
     <div class="pt-[140px]">
         <div class="container">
             <div class="flex justify-between">
-               <div class="flex "
+               <div
             v-for="(item, index) in brands"
             :key="index"
             >

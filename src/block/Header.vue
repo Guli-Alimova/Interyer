@@ -2,9 +2,9 @@
     <header class="py-[38px] px-[0]">
         <div class="container">
             <div class="flex justify-between items-center ">
-                <div> 
+                <router-link to="/"> 
                 <img src="../assets/img/IMAGE.svg" alt="logo">  
-                </div>
+                </router-link>
             <div>
                 <a 
                 href="/"
@@ -16,7 +16,8 @@
                 leading-[30px]
                 tracking-[.40px]
                 text-[#292F36] 
-                hover:text-[#CDA274] mr-[20px] ml-[20px] text-center">
+                hover:text-[#CDA274] mr-[20px] ml-[20px] text-center
+                ease-in duration-300">
                 {{item.link}}
                 </a>
                 

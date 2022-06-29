@@ -5,11 +5,14 @@
     :key="index"
     class="bg-[#fff] pt-[50px] pr-[79px] pb-[45px] pl-[35px] rounded-[30px] ">
            <div class="flex justify-between">
-                <img :src="item.img" alt="">
+            <div class="max-w-[77px] max-h-[77px]">
+                 <img  :src="item.img" class="w-full h-full" alt="">
+            </div>
+               
             <div>
                 <span class="font-['DM Serif Display]
                 text-[25px]
-                text-normal
+                font-normal
                 leading-[38px]
                 tracking-[.22px]
                 text-[#292F36]
@@ -17,7 +20,7 @@
                 ">{{item.name}}</span>
                 <span class="font-['Jost'] 
                 text-[18px]
-                text-normal
+                font-normal
                 leading-[27px]
                 tracking-[.22px]
                 ">{{item.city}}</span>
@@ -25,11 +28,12 @@
            </div>  
                 <p class="font-['Jost']
                 text-[20px]
-                text-normal
+                font-normal
                 leading-[30px]
                 tracking-[.22px]
                 w-[244px]
                 pt-[25px]
+                line-clamp-4
                 ">{{item.comment}}</p>
     </div>
 </div>    

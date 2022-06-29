@@ -1,7 +1,8 @@
 <template>
     <div>
-        <div class="container grid grid-cols-4 gap-4 pt-[142px] pb-[81px]">
-            <div> 
+        <div class="container pt-[142px] pb-[36px]">
+            <div  class="flex justify-between pb-[111px]">
+            <router-link to="/"> 
                 <img src="@/assets/img/IMAGE.svg" alt="logo"> 
                 <p class="font-['Jost']
                 text-[22px] 
@@ -10,118 +11,131 @@
                 tracking-[.22px] 
                 mt-[25px]
                 mb-[31px]
+                w-[326px]
+                line-clamp-3
                 ">We are the leading architect and interior design firm in the world.</p> 
-                <div class="flex justify-between">
+                <div>
                 <button  v-for="(el, i) in icon"
                 :key="i"
                 >
-                <img :src="el.icon" alt="" class="w-[17px]">  
+                <img :src="el.icon" alt="" class="w-[17px] mr-[40px] ">  
                 </button>   
                 </div>
                  
-            </div>
-
+            </router-link>
+            
             <div>
                 <h3 class="font-['DM Serif Display']
                 text-[25px] 
-                text-normal
+                font-normal
                 leading-[38px] 
                 tracking-[.22px] 
                 text-[#292F36]
                 mb-[21px]
                 ">Pages</h3>
-                <a href="#" v-for="(el, index) in pages"
+                <router-link to="#" v-for="(el, index) in pages"
                 :key="index"
                 class="block 
                 font-['Jost']
                 text-[22px] 
-                text-normal
+                font-normal
                 leading-[33px] 
                 tracking-[.22px]
                 mb-[30px]
                cursor-pointer
                hover:text-[#CDA274]">
                    {{el.name}}
-                </a> 
+                </router-link> 
             </div>
                
             <div>
                <h3 class="font-['DM Serif Display']
                 text-[25px] 
-                text-normal
+                font-normal
                 leading-[38px] 
                 tracking-[.22px] 
                 text-[#292F36]
                 mb-[21px]
                 ">Explore</h3>
-                <a href="#" v-for="(el, index) in explore"
+                <router-link to="#" v-for="(el, index) in explore"
                 :key="index" 
                 class="block 
                 font-['Jost']
                 text-[22px] 
-                text-normal
+                font-normal
                 leading-[33px] 
                 tracking-[.22px]
                 mb-[30px]
                 cursor-pointer
-                hover:text-[#CDA274]">{{el.title}}</a> 
+                hover:text-[#CDA274]">{{el.title}}</router-link> 
             </div>
                 
             <div>
                 <h3 class="font-['DM Serif Display']
                 text-[25px] 
-                text-normal
+                font-normal
                 leading-[38px] 
                 tracking-[.22px] 
                 text-[#292F36]
                 mb-[21px]
+                w-[321px]
                 ">Contact</h3>
-                <a href="#" class="block 
+                <router-link to="#" class="block 
                 font-['Jost']
                 text-[22px] 
-                text-normal
+                font-normal
                 leading-[33px] 
                 tracking-[.22px]
                 mb-[30px]
                 cursor-pointer
-                hover:text-[#CDA274]">53, East Birchwood Ave. Brooklyn, New York 11201, USA.</a>
-                <a href="#" class="block 
+                hover:text-[#CDA274]
+                w-[321px]">53, East Birchwood Ave.  Brooklyn, New York 11201, USA.</router-link>
+                <router-link to="#" class="block 
                 font-['Jost']
                 text-[22px] 
-                text-normal
+                font-normal
                 leading-[33px] 
                 tracking-[.22px]
                 mb-[30px]
                 hover:text-[#CDA274]
-                cursor-pointer">contact@interno.com</a>
-                <a href="#" class="block 
+                cursor-pointer">contact@interno.com</router-link>
+                <router-link to="#" class="block 
                 font-['Jost']
                 text-[22px] 
-                text-normal
+                font-normal
                 leading-[33px] 
                 tracking-[.22px]
                 mb-[30px]
                 hover:text-[#CDA274]
-                cursor-pointer">(123) 456 - 7890</a>
+                cursor-pointer">(123) 456 - 7890</router-link>
+            </div>      
             </div>
-
-        </div>
-
         <div class="pt-[35px] 
-        pb-[36px] 
         border-t-2 
+        text-center
+        ">
+        <p class="inline 
         text-center
         font-['Jost']
         text-[22px] 
-        text-normal
+        font-normal
         leading-[33px] 
-        tracking-[.22px]
-        ">
-        <span>Copyright © Interno | Designed by   </span>  
-        <span class="text-[#CDA274]">Victorflow   </span>
-        <span>Templates - Powered by   </span>
-        <span class="text-[#CDA274]">Webflow</span>
+        tracking-[.22px]">Copyright © Interno | Designed by  </p>  
+        <span class="text-[#CDA274] font-['Jost']
+        text-[22px] 
+        font-normal
+        leading-[33px] 
+        tracking-[.22px]">Victorflow   </span>Templates - Powered by 
+        <span class="text-[#CDA274] font-['Jost']
+        text-[22px] 
+        font-normal
+        leading-[33px] 
+        tracking-[.22px]">Webflow</span>
+        </div> 
+
         </div>
+
+       
     </div>
 </template>
 

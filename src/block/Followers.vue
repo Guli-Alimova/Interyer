@@ -1,24 +1,24 @@
 <template>
     <div class="bg-[#F4F0EC] pt-[140px] pb-[140px]">
         <div class="container">
-            <div class="flex justify-between text-center">
+            <div class="flex justify-between items-center">
                 <div v-for="(el, i) in follow"
                 :key="i"
-                class="relative">   
+                class="relative border-r-4 pr-[60px] border-[#CDA274] last:border-none text-center">   
                     <h3 class="font-['DM Serif Display']
                     text-[85px]
-                    text-normal
+                    font-normal
                     leading-[128px] 
                     tracking-[1.7px]
                     text-[#CDA274]
                     ">{{el.number}}</h3>
                     <span class="font-['Jost']
                     text-[22px]
-                    text-normal
+                    font-normal
                     leading-[33px]
                     tracking-[.22px]
                    ">{{el.active}}</span>
-                     <span class="bg-[#CDA274] w-[1px] h-[195px] inline-block absolute left-[253px] bottom-0 top-0"></span>
+                    
                  </div>
             
                

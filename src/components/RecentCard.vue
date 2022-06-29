@@ -2,21 +2,26 @@
     <div v-for="(item, index) in recent"
         :key="index"
         >
-        <img :src="item.photo"  alt="photo" class="w-[100%] h-[661px]">
+        <div class="max-w-[590px] max-h-[661px]">
+            <img :src="item.photo"  alt="photo" class="w-full h-full">  
+        </div>
+      
         <div class="flex justify-between pt-[24px] pb-[61px]">
-            <div>
+            <div class="max-w-[325px]">
               <p class="font-['DM Serif Display']
             text-[24px]
-            text-normal
+            font-normal
             leading-[38px] 
             tracking-[.22px] 
             text-[#292F36]
+            line-clamp-3
             ">{{item.name}}</p>
             <span class="font-['Jost']
             text-[22px]
-            text-normal
+            font-normal
             leading-[33px] 
-            tracking-[.22px]"
+            tracking-[.22px]
+            line-clamp-3"
             >{{item.design}}</span>   
             </div>
                 <button class="px-[28px] py-[28px] bg-[#F4F0EC] rounded-[100px] ">

@@ -3,31 +3,33 @@
     :key="i"
     class="pt-[21px] pr-[21px] pb-[41px] pl-[21px] border-solid border-2 border-[#E7E7E7] rounded-[62px] relative">
         <img :src="el.photo"  alt="" >
-        <span class="
+        <router-link to="/" class="
         absolute
         bottom-[222px]
         left-[45px]
         font-['Jost'] 
         text-[16px] 
-        text-normal
+        font-normal
         leading-[24px]
         tracking-[.22px]
         px-[9px] py-[11px]
         bg-[#fff]
-        rounded-[8px]  
-        ">{{el.room}}</span>
+        rounded-t-[8px]
+        rounded-r-[8px]
+        ">{{el.room}}</router-link>
         <!-- bitta uchi border-radius bolmagan uni qanday qilish kere  -->
         <h3 class="font-['DM Serif Display'] 
         text-[25px] 
-        text-normal
+        font-normal
         leading-[35px] 
         tracking-[.5px]
         text-[#292F36]
+        line-clamp-3
         ">{{el.name}}</h3>
         <div class="flex justify-between pt-[20px] items-center">
             <span class="font-['Jost'] 
             text-[16px] 
-            text-normal
+            font-normal
             leading-[24px] 
             tracking-[.22px] 
             ">{{el.date}}</span>

@@ -3,22 +3,22 @@
         <div class="container">
             <h1 class="font-['DM Serif Display']
             text-[80px] 
-            text-normal
+            font-normal
             leading-[96px] 
             tracking-[.22px]
             text-[left]
             w-[595px]
-            text-[#292F36]">Let's Create Your Dream Interior</h1>
-            <div class="font-['Jost']
+            text-[#292F36]
+            line-clamp-3">Let's Create Your Dream Interior</h1>
+            <p class="font-['Jost']
             text-[22px]
-            text-normal;
+            font-normal;
             leading-[33px] 
             tracking-[.21px]
             text-left
-            pt-[19px] pr-[0] pb-[35px] pl-[0] ">
-            <p>The world needs innovators and problem solvers who turn</p>
-            <p>challenges into greater opportunities.</p>  
-            </div>
+            w-[577px]
+            pt-[19px] pr-[0] pb-[35px] pl-[0] 
+            line-clamp-3">The world needs innovators and problem solvers who turn challenges into greater opportunities.</p>          
             <my-button>Get Started </my-button>
             
           
