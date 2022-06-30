@@ -16,7 +16,7 @@
                 tracking-[.40px]
                 text-[#292F36] 
                 hover:text-[#CDA274] mr-[20px] ml-[20px] text-center
-                ease-in duration-300 active:bg-white-700  active:border-b-8 active:border-[#CDA274]  ">
+                ease-in duration-300 active:bg-white-700  active:border-b-4 active:border-[#CDA274]  ">
                 {{item.link}}
                 </a>
                 
