@@ -24,8 +24,10 @@
             line-clamp-3"
             >{{item.design}}</span>   
             </div>
-                <button class="px-[28px] py-[28px] bg-[#F4F0EC] rounded-[100px] ">
-                  <img src="@/assets/img/right-svgrepo-com.svg" class="w-[18px]" alt="arrow">
+                <button class="px-[32px] py-[28px] bg-[#F4F0EC] rounded-[100px] hover:bg-[#CDA274]  ease-in duration-300  ">
+                 <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
                 </button>
         </div>
     </div>

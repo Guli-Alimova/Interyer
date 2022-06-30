@@ -1,10 +1,10 @@
 <template>
     <div class="bg-[#F4F0EC] pt-[140px] pb-[140px]">
         <div class="container">
-            <div class="flex justify-between items-center">
+            <div class="grid grid-cols-4">
                 <div v-for="(el, i) in follow"
                 :key="i"
-                class="relative border-r-4 pr-[60px] border-[#CDA274] last:border-none text-center">   
+                class="border-r-2  border-[#CDA274] last:border-none text-center">   
                     <h3 class="font-['DM Serif Display']
                     text-[85px]
                     font-normal

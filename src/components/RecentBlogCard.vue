@@ -3,7 +3,7 @@
     :key="i"
     class="pt-[21px] pr-[21px] pb-[41px] pl-[21px] border-solid border-2 border-[#E7E7E7] rounded-[62px] relative">
         <img :src="el.photo"  alt="" >
-        <router-link to="/" class="
+        <router-link to="/" class="btn-10
         absolute
         bottom-[222px]
         left-[45px]
@@ -16,8 +16,10 @@
         bg-[#fff]
         rounded-t-[8px]
         rounded-r-[8px]
+        hover:bg-transparent
+        hover:text-[#C0090E]
         ">{{el.room}}</router-link>
-        <!-- bitta uchi border-radius bolmagan uni qanday qilish kere  -->
+  
         <h3 class="font-['DM Serif Display'] 
         text-[25px] 
         font-normal
@@ -33,8 +35,10 @@
             leading-[24px] 
             tracking-[.22px] 
             ">{{el.date}}</span>
-           <button class="px-[22px] py-[22px] bg-[#F4F0EC] rounded-[100px] ">
-                <img src="@/assets/img/right-svgrepo-com.svg" class="w-[18px]" alt="arrow">
+           <button class="px-[23px] py-[19px] bg-[#F4F0EC] rounded-[100px] hover:bg-[#CDA274]  ease-in duration-300 ">
+                 <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
             </button>
         </div>
     </div>
@@ -88,3 +92,8 @@ export default {
   }
 }
 </script>
+
+
+<style >
+
+</style>

@@ -1,7 +1,7 @@
 <template>
     <div class="pt-[140px]">
         <div class="container">
-            <div class="flex justify-between">
+            <div class="flex justify-between items-center">
                <div
             v-for="(item, index) in brands"
             :key="index"

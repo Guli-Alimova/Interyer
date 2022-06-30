@@ -1,11 +1,11 @@
 <template>
-<div class="flex justify-between columns-3">
+<div class="grid grid-cols-3 gap-[18px]">
     <div 
     v-for="(item, index) in people" 
     :key="index"
-    class="bg-[#fff] pt-[50px] pr-[79px] pb-[45px] pl-[35px] rounded-[30px] ">
-           <div class="flex justify-between">
-            <div class="max-w-[77px] max-h-[77px]">
+    class="bg-[#fff] pt-[50px] pb-[45px] px-[35px] rounded-[30px] ">
+           <div class="flex ">
+            <div class="max-w-[77px] max-h-[77px] mr-[20px] w-full h-full">
                  <img  :src="item.img" class="w-full h-full" alt="">
             </div>
                

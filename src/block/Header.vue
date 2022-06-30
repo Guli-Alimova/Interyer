@@ -6,10 +6,9 @@
                 <img src="../assets/img/IMAGE.svg" alt="logo">  
                 </router-link>
             <div>
-                <a 
-                href="/"
+                <a  
                 v-for="(item, index) in pages" 
-                :key="index"
+                :key="index" :href="item.href"
                 class=" font-['Jost']
                 text-[19px] 
                 text-normal
@@ -17,7 +16,7 @@
                 tracking-[.40px]
                 text-[#292F36] 
                 hover:text-[#CDA274] mr-[20px] ml-[20px] text-center
-                ease-in duration-300">
+                ease-in duration-300 active:bg-white-700  active:border-b-8 active:border-[#CDA274]  ">
                 {{item.link}}
                 </a>
                 
@@ -39,18 +38,23 @@ export default {
             pages:[
                 {
                 link :'Home', 
+                href:"/"
                 },
                   {
                 link :'About Us', 
+                href:"about"
                 },
                   {
                 link :'Servises', 
+                href:"servises"
                 },
                   {
                 link :'Pages', 
+                href:"pages"
                 },
                   {
                 link :'Contact Us', 
+                href:"contact"
                 }
 
           
