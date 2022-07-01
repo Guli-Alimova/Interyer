@@ -1,15 +1,15 @@
 <template>
-    <Header />
-    <Hero/>
-    <Interier-design/>
-    <ChellengingDesign/>
-    <PeopleOpinion/>
-    <Brand/>
-    <RecentProject/>
-    <Followers/>
-    <RecentBlog/>
-    <JoinInterno/>
-    <Footer/>
+<Header />
+<Hero />
+<Interier-design />
+<ChellengingDesign />
+<PeopleOpinion />
+<Brand />
+<RecentProject />
+<Followers />
+<RecentBlog />
+<JoinInterno />
+<Footer />
 </template>
 
 <script>
@@ -25,19 +25,19 @@ import RecentBlog from "@/block/RecentBlog.vue"
 import JoinInterno from "@/block/JoinInterno.vue"
 import Footer from "@/block/Footer.vue"
 export default {
-   components:{
-    Header,
-    Hero,
-    InterierDesign,
-    ChellengingDesign,
-    PeopleOpinion,
-    Brand,
-    RecentProject,
-    Followers,
-    RecentBlog,
-    JoinInterno,
-    Footer
-   }
+    components: {
+        Header,
+        Hero,
+        InterierDesign,
+        ChellengingDesign,
+        PeopleOpinion,
+        Brand,
+        RecentProject,
+        Followers,
+        RecentBlog,
+        JoinInterno,
+        Footer
+    }
 }
 </script>
 

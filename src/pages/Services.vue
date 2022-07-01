@@ -1,5 +1,5 @@
 <template>
-    Servises
+    Services
 </template>
 
 

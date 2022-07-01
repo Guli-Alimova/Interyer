@@ -28,3 +28,11 @@ body{
     color:#4D5053;
     background-color:#F5F5F5; ;
 }
+@for $i from 1 through 15 {
+    .line-clamp-#{$i} {
+      display: -webkit-box;
+      -webkit-line-clamp: $i;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }

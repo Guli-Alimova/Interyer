@@ -1,63 +1,53 @@
 <template>
-    <header class="py-[38px] px-[0]">
-        <div class="container">
-            <div class="flex justify-between items-center ">
-                <router-link to="/"> 
-                <img src="../assets/img/IMAGE.svg" alt="logo">  
-                </router-link>
+<header class="py-[38px] px-[0]">
+    <div class="container">
+        <div class="flex justify-between items-center ">
+            <router-link to="/">
+                <img src="../assets/img/IMAGE.svg" alt="logo">
+            </router-link>
             <div>
-                <a  
-                v-for="(item, index) in pages" 
-                :key="index" :href="item.href"
-                class=" font-['Jost']
+                <a v-for="(item, index) in pages" :key="index" :href="item.href" class=" font-['Jost']
                 text-[19px] 
-                text-normal
                 leading-[30px]
                 tracking-[.40px]
                 text-[#292F36] 
                 hover:text-[#CDA274] mr-[20px] ml-[20px] text-center
                 ease-in duration-300 active:bg-white-700  active:border-b-4 active:border-[#CDA274]  ">
-                {{item.link}}
+                    {{item.link}}
                 </a>
-                
-            </div>  
-            
-            </div>                    
-        </div>      
-    </header>
 
+            </div>
 
+        </div>
+    </div>
+</header>
 </template>
 
 <script>
-
-
 export default {
-    data(){
-        return{
-            pages:[
+    data() {
+        return {
+            pages: [{
+                    link: 'Home',
+                    href: "/"
+                },
                 {
-                link :'Home', 
-                href:"/"
+                    link: 'About Us',
+                    href: "about"
                 },
-                  {
-                link :'About Us', 
-                href:"about"
+                {
+                    link: 'Services',
+                    href: "services"
                 },
-                  {
-                link :'Servises', 
-                href:"servises"
+                {
+                    link: 'Pages',
+                    href: "pages"
                 },
-                  {
-                link :'Pages', 
-                href:"pages"
-                },
-                  {
-                link :'Contact Us', 
-                href:"contact"
+                {
+                    link: 'Contact Us',
+                    href: "contact"
                 }
 
-          
             ]
         }
     }
@@ -67,6 +57,3 @@ export default {
 <style lang="scss">
 
 </style>
- 
-
-

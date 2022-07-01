@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from "vue-router"
 import index from "@/pages/index"
 import About from "@/pages/About.vue"
-import Servises from "@/pages/Servises.vue"
+import Services from "@/pages/Services.vue"
 import Pages from "@/pages/Pages.vue"
 import Contact from "@/pages/Contact.vue"
 
@@ -15,8 +15,8 @@ const routes = [
         component:About
     },
     {
-        path:"/servises",
-        component:Servises
+        path:"/services",
+        component:Services
     },
     {
         path:"/pages",
